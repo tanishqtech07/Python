@@ -81,6 +81,34 @@ reverse_string()'''
 reverse_string2("taniinat")#arguments
 reverse_string2("hello")"""
 
+
+
+#adding to two number
+'''def add(a,b):
+    print(a+b)
+add(10,20)'''
+
+#by changing the value 
+'''def add(a=10,b=20):
+    print(a+b)
+add()
+add(8)
+add(9,10) '''
+
+#multiplication program
+'''def mul(a=10,b=2):
+    print(a*b)
+mul()
+mul(5)
+mul(5,5)
+'''
+
+#printing name 
+'''def info(name,age):
+    print(name,age)
+info("tanishq",19)
+info(age=19,name="tanishq")'''
+
 #function with return statement
 """def add():
     a=10
@@ -97,21 +125,21 @@ add(10,20)#function call karte waqt arguments
 
 
 #type hint add(a,b):#function define karte waqt parameters dete hai joki variable name hota hai aur type hinting karte hai ki a aur b int type ke honge
-def add(a:int,b:int):
+"""def add(a:int,b:int):
     print(a+b)
 add(10,20)
-
+"""
 #local and global variable
 #local variable is a variable which is defined inside a function and can only be accessed inside that function
 #global variable is a variable which is defined outside a function and can be accessed anywhere in the program
 
 """def add(a,b=0):#default parameter value dena
     print(a+b)
-add(10) """
+add(10)
 
-''''def add(a,b=0):#default parameter value dena
+def add(a,b=0):#default parameter value dena
     print(a+b)
-add(10,50)#a mai 10 jayega aur b mai 50 jayega to output 60 aayega'''
+add(10,50)#a mai 10 jayega aur b mai 50 jayega to output 60 aayega"""
 
 #accept and parameter named as "n" and print the factorial of that number
 '''def factorial(n):
@@ -122,4 +150,48 @@ add(10,50)#a mai 10 jayega aur b mai 50 jayega to output 60 aayega'''
 factorial(5)
 '''
 
+#keyword arguments
+"""def info(name,age,gender,address):
+    print(name)
+    print(age)
+    print(gender)
+    print(address)
+info(name="tanishq",age="19",gender="male",address="bhopal")
+    """
+    
+#check if a number i palindrome or no using keyword arguments without converting it into string
+'''def palidrome(n):
+   copy=num
+   reverse=0
+    while num>0:
+    last=num%10
+    reverse=reverse*10+last
+    num=num//10
+    if copy==reverse:
+       print(f"{copy} is a palindrome number")
+    else:
+        print(f"{copy} is not a palindrome number")
+palidrome(num=1221)'''
 
+#RETURN keyword
+'''
+def add(a,b):
+    return a+b 
+x=add(1,3)
+print(x)
+'''
+
+#printing the square of multiplicaion of both values
+'''def mul(a,b):
+    return a*b 
+x=mul(2,2)
+print(x*x)'''
+
+#fatorial using the function 
+def factorial(n):
+    fact=1
+    for i in range(1,n+1):
+        fact*=i
+        return fact
+    print(fact)
+factorial(5)

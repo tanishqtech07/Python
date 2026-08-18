@@ -18,12 +18,12 @@ for i in range(10,-21,-1):#(10, -21, -1) means start from 10, stop at -21 (not i
     print(i)
 
 for i in range(7,71,7):
-    print(i)
+    print(i)"""
     
-c=int(input("Enter a number: "))
+"""c=int(input("Enter a number: "))
 for i in range(c,c*10+1,c):
-    print(i)
-
+    print(i)"""
+"""
 for i in range(0,21,2):#printing all even numbers from 0 to 20
     print(i)
 for i in range(1,21,2):#printing all odd numbers from 1 to 20
@@ -86,38 +86,38 @@ for i in range(rev,0,-1):
 
 mul=int(input("enter a number")) #printing the multiplication table of a number
 for i in range(1,11):
-    print(f"{mul} x {i} = {mul*i}")
+    print(f"{mul} x {i} = {mul*i}")"""
     
-ns=int(input("enter a number")) #printing the sum of first n natural numbers
+"""ns=int(input("enter a number")) #printing the sum of first n natural numbers
 sum=0
 for i in range(1,ns+1):
     sum=sum+i
-    print(sum)
+print(sum)"""
 
-fc=int(input("enter a number:")) #printing the factorial of a number
+"""fc=int(input("enter a number:")) #printing the factorial of a number
 fact=1
 for i in range(1,fc+1):
     fact = fact *i
-print(fact)
-"""
+print(fact)"""
+
 #TANISHQ BHAIYA QAUSTIONS
 #qustion: Write a program to count the total even and odd numbers from 1 to n.
-"""count=int(input("enter a number:"))#counting the total even and odd numbers from 1 to n
+count=int(input("enter a number:"))#counting the total even and odd numbers from 1 to n
 even=0
 odd=0
 for i in range(1,count+1):
     if i%2==0:
-        
+        print(f"{i} is an even number")
         even+=1#even=even+1 #shorthand operator for adding 1 to the variable even
     else:
-       
+        print(f"{i} is an odd number")
         odd+=1#odd=odd+1
 
 print("the total even number are :",even)
 print("the total odd number are :",odd)
-"""
+
 #question2 : count the total number of vowels and consonants in a string.
-s="hello sherry"
+"""s="hello sherry"
 count=0
 consonants=0
 for i in s:
@@ -128,7 +128,7 @@ for i in s:
         
 print(f"count of vowels are :{count}")
 print(f"count of consonants:{consonants}")
-
+"""
 #question3 : print 
 """num=int(input("enter the number:"))
 for i in range(2,num):
@@ -189,10 +189,10 @@ for i in range(2,n2+1):
             print(i)"""
 
 #seprate each digit of a number and print it on a new line
-num4=int(input("enter a number:"))
+"""num4=int(input("enter a number:"))
 num=str(num4)
 for i in num:
     print(i)
-    
+    """
 
     

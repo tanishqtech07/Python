@@ -5,7 +5,7 @@ if age>=18 :
 if age<=18 :
     print(f"hello {name}you are a valid voter after {18-age} :")
 else:
-    print(f"hello {name} ypu are not a vaild voter ")
+    print(f"hello {name} you are not a vaild voter ")
     
     
 year = int(input("tell your year :-"))
@@ -37,7 +37,7 @@ if a==b and b==c:
 elif a==b or b==c or a==c:
     print("any two are equal")
 else:
-    print("non are equal")
+    print("none are equal")
     
 char = input("give me an alphabet:")
 if char=='a' or char=='e' or char=='i' or char=='o' or char=='u' or char=='n':
